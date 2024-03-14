@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta data-brackets-id="116" charset="UTF-8">
+		<title>Baking Bread for Beginners</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Learn How to Bake Basic Bread Recipes">
+		<meta name="author" content="Kate Seegmiller">
+		<link rel="stylesheet" href="bread.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+		
+		
+		
+	</head>
+	<body>
+		<!-- Start of the page header -->
+		<header>
+			<h1>Baking Bread for Beginners</h1>
+			<p>Your Top Go To Recipes Found Here</p>
+		</header>
+		<!-- Start of the page navigation -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Why Bake Bread?</a></li>
+				<li><a href="types.html">What Types of Bread?</a></li>
+				<li><a href="examples.html">Examples</a></li>
+				<li class="active"><a href="signup.html">Baking Class Sign Up</a></li>
+			</ul>
+		</nav>
+		<!-- Start of the page content -->
+		<main>
+		<h1>Sign Up For A Baking Class!</h1>
+			<form method="get" class="myForm" action="thanks.html">
+		
+		<fieldset>
+		<legend>Customer Information</legend>
+		<label>First Name*<input type="text" name="fname" required></label>
+		<label>Last Name*<input type="text" name="lname" required></label>	
+		<label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+		</fieldset>	
+			
+		<fieldset>
+		<legend>Dates</legend>	
+			<label><input type="radio" name="method" value="april">April 3rd</label>
+			<label><input type="radio" name="method" value="may">May 6th</label>
+			<label><input type="radio" name="method" value="june">June 10th</label>
+			<label><input type="radio" name="method" value="july">July 14th</label>
+		</fieldset>	
+			
+		<fieldset>
+		<legend>Which Bread Class?</legend>	
+			<label><input type="checkbox" name="porch" value="chosen"> White Bread</label>
+			<label><input type="checkbox" name="deck" value="chosen"> Wholewheat</label>
+			<label><input type="checkbox" name="driveway" value="chosen"> Challah</label>
+			<label><input type="checkbox" name="garage" value="chosen"> Brioche</label>
+			
+			<label>What Time?
+			<select name="time">
+			<option value="none">Please Select</option>
+			<option value="morning">8:00am - 11:00am</option>
+			<option value="noon">11:00am - 2:00pm</option>
+			<option value="afternoon">2:00pm - 5:00pm</option>
+			<option value="evening">5:00pm - 8:00pm</option>
+			</select>
+			</label>
+		</fieldset>	
+			
+		<label>Comments
+			<textarea name="comments"></textarea>
+			</label>	
+			
+			
+		<input type="submit" value="Send Delivery Request">
+		</form> 
+			
+		</main>
+		<!-- Start of the page footer -->
+		<footer>
+		<p>&copy; 2024 &bull; Kate Seegmiller &bull; <a href="mailto:katesseegmiller@gmail.com">Email Us</a></p>
+		</footer>
+		
+	</body>
+</html>
